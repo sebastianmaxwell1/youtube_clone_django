@@ -1,9 +1,8 @@
-from django.shortcuts import render
-from .models import Video
+from youTube.myproject.models import Video
 from serializer import VideoSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework import status
+
 
 # Create your views here.
 class VideoList(APIView):

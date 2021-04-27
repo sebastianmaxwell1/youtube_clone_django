@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Video
+from youTube.myproject.models import Video
 
 admin.site.register(Video)
 
